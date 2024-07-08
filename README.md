@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Posts App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React Posts Application! This project allows users to manage posts, create new posts, edit existing ones, and delete posts. It's built using React, leveraging React Router for navigation and the Context API for state management.
 
-## Available Scripts
+### Set Up Instructions
 
-In the project directory, you can run:
+<details>
+<summary>Click to view</summary>
 
-### `npm start`
+- Download dependencies by running `npm install`
+- Start up the app using `npm start`
+- Navigate to `http://localhost:3000` to view the app.
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details>
+<summary>Click to view</summary>
 
-### `npm test`
+- **Create Post:** Users can create new posts by filling out a form with a title and content.
+- **Edit Post:** Existing posts can be edited with updated title and content.
+- **Delete Post:** Users have the option to delete posts they no longer need.
+- **Global State Management:** Manages posts using the React Context API for centralized state management.
+- **Dynamic Routing:** Uses React Router for navigation between different views (Post Display, Create Post, Edit Post).
+- **Initial Data:** Starts with 3-4 preloaded posts to demonstrate functionality.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</details>
 
-### `npm run build`
+### Dependenices
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+<summary>Click to view</summary>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **react:** JavaScript library for building user interfaces.
+- **react-router-dom:** DOM bindings for React Router, allowing navigation and routing in React applications.
+- **uuid:** A package for generating unique identifiers (UUIDs) in JavaScript.
+- Other dependencies specified in `package.json`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</details>
 
-### `npm run eject`
+### Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+<summary>Click to view</summary>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **public/** - Contains the index.html file for demonstration.
+- **src/** - Contains the application source code.
+  - **components/** - React components used in the application.
+  - **context/** - Context API for managing global state
+  - **App.js** - Main component rendering the Bar Chart and TimeFrame Selector.
+  - **index.js** - Entry point for rendering the React application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Usage
 
-## Learn More
+<details>
+<summary>Click to view</summary>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Creating a Post:** Click on the "Create Post" button on the main page, fill out the form, and submit to create a new post.
+- **Editing a Post:** Click on the "Edit" button next to a post, modify the content, and save the changes.
+- **Deleting a Post:** Click on the "Delete" button next to a post to remove it from the list.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
